@@ -1,4 +1,4 @@
-package com.dnpi.petclinic.dnpipetclinic;
+package dnpipetclinic;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

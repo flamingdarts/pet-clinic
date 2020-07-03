@@ -23,9 +23,6 @@
         <java.version>14</java.version>
     </properties>
 
-    <dependencies>
-
-    </dependencies>
     <build>
         <plugins>
             <plugin>

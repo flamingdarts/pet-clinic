@@ -3,9 +3,11 @@ package com.dnpi.petclinic.dnpipetclinic.services.map;
 import com.dnpi.petclinic.dnpipetclinic.model.Vet;
 import com.dnpi.petclinic.dnpipetclinic.services.CrudService;
 import com.dnpi.petclinic.dnpipetclinic.services.VetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
     @Override
     public Set<Vet> findAll() {

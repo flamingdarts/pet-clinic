@@ -3,9 +3,11 @@ package com.dnpi.petclinic.dnpipetclinic.services.map;
 import com.dnpi.petclinic.dnpipetclinic.model.Owner;
 import com.dnpi.petclinic.dnpipetclinic.services.CrudService;
 import com.dnpi.petclinic.dnpipetclinic.services.OwnerService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service // functional service and components are the same 
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
 
     @Override

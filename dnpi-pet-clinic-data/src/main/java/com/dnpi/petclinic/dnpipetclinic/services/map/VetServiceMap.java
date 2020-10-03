@@ -2,10 +2,11 @@ package com.dnpi.petclinic.dnpipetclinic.services.map;
 
 import com.dnpi.petclinic.dnpipetclinic.model.Vet;
 import com.dnpi.petclinic.dnpipetclinic.services.CrudService;
+import com.dnpi.petclinic.dnpipetclinic.services.VetService;
 
 import java.util.Set;
 
-public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
     @Override
     public Set<Vet> findAll() {
         return super.findAll();
